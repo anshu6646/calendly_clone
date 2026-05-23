@@ -11,7 +11,11 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "http://localhost:5173",
+  origin: [
+    "http://localhost:5173",
+    "https://romantic-nature-production-ecf4.up.railway.app"
+  ],
+  credentials: true
 }));
 app.use(express.json());
 
