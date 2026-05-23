@@ -249,12 +249,6 @@ Recommended hosting:
 - **Backend**: Render or Railway
 - **Database**: Railway MySQL, PlanetScale, or any hosted MySQL provider
 
-After deployment, update environment variables:
-
-```env
-# In frontend .env
-VITE_API_URL=https://your-backend-url.com/api
-
-# In backend .env
-FRONTEND_URL=https://your-frontend-url.com
-```
+Add deployed links here:
+GitHub Repository:https://github.com/anshu6646/calendly_clone
+Deployed (on Railway):romantic-nature-production-ecf4.up.railway.app
